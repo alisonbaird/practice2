@@ -27,3 +27,47 @@ blockchain = [
 # Anthony's KelloggCoin balance is 2650
 
 # 👇👇👇 Your code HERE 👇👇👇
+puts 2 
+puts "hello"
+puts "world"
+puts "hello" + "world"
+
+x = "water_bottle"
+y = "phone"
+puts x
+
+first_name = "alison"
+greeting = "hey girlypop, #{first_name}!"
+puts greeting 
+
+puts 3 == 2 # returns false
+puts 3 > 2 # returns true
+puts 3 < 2 #returns false
+
+if 3 == 2
+  puts "this text should never be displayed"
+end
+
+your_team_score = 7
+other_team_score = 10
+
+if your_team_score > other_team_score
+  puts "Great job team!"
+
+elseif your_team_score == other_team_score
+puts "Not bad, you tied"
+
+else 
+  puts "you lost, sorry friend"
+end
+
+christmas_wish_list = ["ugg cheetah slippers", "owala", "goldfish purse"]
+puts christmas_wish_list
+
+number_one_ask = christmas_wish_list [0]
+puts number_one_ask
+
+christmas_wish_list = christmas_wish_list + ["marine_layer_hoodie", "new_phone_case"]
+puts christmas_wish_list
+
+puts christmas_wish_list.count
